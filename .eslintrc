@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "no-console": 0,
+    "no-alert": 0,
+	"no-param-reassign": ["error", { "props": false }],
+	"eqeqeq": ["error", "allow-null"]
+  },
+  "globals": {
+    "angular": true,
+	"moment": true
+  },
+  "extends": "./node_modules/eslint-config-airbnb/base.js"
+}
